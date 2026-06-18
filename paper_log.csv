@@ -1,0 +1,4 @@
+date,ticker,action,close,fill,pnl,equity,reason,entry_days,exit_days,atr_mult
+2026-06-18,BTC-USD,NO_SIGNAL,64509.4,,,10000.0,no breakout (close 64509.4000 <= high 82210.0700),55,10,2.0
+2026-06-18,ETH-USD,NO_SIGNAL,1750.6,,,10000.0,no breakout (close 1750.6000 <= high 2371.2700),55,10,2.0
+2026-06-18,SOL-USD,NO_SIGNAL,72.05,,,10000.0,no breakout (close 72.0500 <= high 97.3700),55,10,2.0
