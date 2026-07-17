@@ -76,7 +76,7 @@ def log_decision(row: dict):
 # ── Data ──────────────────────────────────────────────────────────────────────
 def fetch_closes(symbol: str, limit: int = 80) -> list[dict]:
     """Fetch daily OHLCV from Binance (no API key needed)."""
-    url = "https://api.binance.com/api/v3/klines"
+    url = "https://api.binance.us/api/v3/klines"
     params = {"symbol": symbol, "interval": "1d", "limit": limit}
     for attempt in range(3):
         try:
@@ -86,7 +86,7 @@ def fetch_closes(symbol: str, limit: int = 80) -> list[dict]:
                 raise ValueError(f"Binance error: {data}")
             return [
                 {
-                    "date":   datetime.fromtimestamp(row[0]/1000, tz=timezone.utc).date(),
+                    "date":   datetime.fromtimestamp(int(row[0])/1000, tz=timezone.utc).date(),
                     "open":   float(row[1]),
                     "high":   float(row[2]),
                     "low":    float(row[3]),
