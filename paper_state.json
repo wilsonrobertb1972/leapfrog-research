@@ -1,6 +1,16 @@
 {
-  "equity": 10000.0,
-  "positions": {},
+  "equity": 8848.9154,
+  "positions": {
+    "GLD": {
+      "shares": 2.875214,
+      "entry_price": 399.999606,
+      "stop": 391.304602,
+      "entry_date": "2026-08-10",
+      "cost": 1151.0846,
+      "atr_at_entry": 4.347502
+    }
+  },
   "trade_history": [],
-  "last_run": "2026-06-18"
+  "last_run": "2026-08-10",
+  "version": "v2-NVDA+GLD+BTC+SOL-25/8/2.0x"
 }
