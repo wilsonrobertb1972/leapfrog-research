@@ -1,0 +1,33 @@
+
+Binance symbol mapping in data._CRYPTO:
+  ETH-USD    -> ETHUSDT
+  XRP-USD    -> XRPUSDT
+  ZEC-USD    -> ZECUSDT
+  NEAR-USD   -> NEARUSDT
+  DOGE-USD   -> DOGEUSDT
+  ADA-USD    -> ADAUSDT
+  LINK-USD   -> LINKUSDT
+  UNI-USD    -> UNIUSDT
+  LTC-USD    -> LTCUSDT
+[cache] ETH-USD: 2708 rows
+[cache] XRP-USD: 2585 rows
+[fetch] ZEC-USD: 2264 rows (2019-03-21 → 2025-05-31)
+[fetch] NEAR-USD: 1691 rows (2020-10-14 → 2025-05-31)
+[cache] DOGE-USD: 2158 rows
+[cache] ADA-USD: 2602 rows
+[cache] LINK-USD: 2328 rows
+[fetch] UNI-USD: 1718 rows (2020-09-17 → 2025-05-31)
+[fetch] LTC-USD: 2708 rows (2018-01-01 → 2025-05-31)
+
+ticker      rows  first       last         missing  NaNs  status
+ETH-USD     2708  2018-01-01  2025-05-31         0     0  PASS
+XRP-USD     2585  2018-05-04  2025-05-31         0     0  PASS
+ZEC-USD     2264  2019-03-21  2025-05-31         0     0  PASS
+NEAR-USD    1691  2020-10-14  2025-05-31         0     0  PASS
+DOGE-USD    2158  2019-07-05  2025-05-31         0     0  PASS
+ADA-USD     2602  2018-04-17  2025-05-31         0     0  PASS
+LINK-USD    2328  2019-01-16  2025-05-31         0     0  PASS
+UNI-USD     1718  2020-09-17  2025-05-31         0     0  PASS
+LTC-USD     2708  2018-01-01  2025-05-31         0     0  PASS
+
+Wrote candidate_eligibility.csv

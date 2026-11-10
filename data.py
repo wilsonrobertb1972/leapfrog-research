@@ -31,6 +31,10 @@ _CRYPTO = {
     "DOGE-USD": "DOGEUSDT",
     "ADA-USD":  "ADAUSDT",
     "BNB-USD":  "BNBUSDT",
+    "ZEC-USD":  "ZECUSDT",
+    "NEAR-USD": "NEARUSDT",
+    "UNI-USD":  "UNIUSDT",
+    "LTC-USD":  "LTCUSDT",
 }
 
 _EQUITY = [
