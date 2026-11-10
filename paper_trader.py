@@ -110,9 +110,15 @@ def fetch_equity(symbol: str, limit: int = 40) -> list[dict]:
         import yfinance as yf
         end   = datetime.now(timezone.utc).date()
         start = end - timedelta(days=limit * 2)  # buffer for weekends/holidays
-        raw   = yf.download(symbol, start=str(start), end=str(end),
-                             progress=False, auto_adjust=True)
-        if raw.empty:
+        raw = None
+        for _attempt in range(3):
+            raw = yf.download(symbol, start=str(start), end=str(end),
+                              progress=False, auto_adjust=True)
+            if not raw.empty:
+                break
+            print(f"[fetch] {symbol} yfinance empty, attempt {_attempt+1}")
+            time.sleep(3)
+        if raw is None or raw.empty:
             print(f"[fetch] {symbol}: no data from yfinance")
             return []
         # Handle MultiIndex columns
