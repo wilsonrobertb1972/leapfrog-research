@@ -1,0 +1,33 @@
+  # pair             avg 90d USD vol  days
+  1 XBT/USD              194,931,437    90
+  2 ETH/USD               71,157,571    90
+  3 XRP/USD               53,942,623    90
+  4 SOL/USD               36,347,797    90
+  5 ZEC/USD               35,007,969    90
+  6 NEAR/USD              15,794,535    90
+  7 HYPE/USD              14,635,880    90
+  8 SUI/USD               10,838,988    90
+  9 TAO/USD                8,259,792    90
+ 10 XDG/USD                7,542,306    90
+ 11 ADA/USD                7,410,328    90
+ 12 QNT/USD                6,730,336    90
+ 13 LINK/USD               6,040,608    90
+ 14 UNI/USD                5,502,583    90
+ 15 LTC/USD                5,275,873    90
+ 16 PUMP/USD               5,026,656    90
+ 17 XMR/USD                4,938,076    90
+ 18 AVAX/USD               4,716,225    90
+ 19 XLM/USD                4,041,287    90
+ 20 ENA/USD                3,981,302    90
+ 21 PEPE/USD               3,318,617    90
+ 22 ONDO/USD               2,682,697    90
+ 23 AAVE/USD               2,530,306    90
+ 24 HBAR/USD               2,441,496    90
+ 25 VVV/USD                2,357,302    90
+ 26 ARB/USD                2,297,908    90
+ 27 CRV/USD                2,231,980    90
+ 28 USELESS/USD            2,191,384    90
+ 29 PAXG/USD               2,156,429    90
+ 30 INJ/USD                2,127,990    90
+
+NVDA / GLD tokens found:

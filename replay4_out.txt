@@ -1,0 +1,29 @@
+Module: paper_trader_4slot | slots: 4 | 2021-06-01 -> 2025-05-31 | 1461 days | ['BTC-USD', 'SOL-USD', 'NVDA', 'GLD']
+
+  live trades: 103   backtest trades: 133
+  same ticker+exit day: 76   of which same entry+exit prices: 65
+  live-only: 27   backtest-only: 57
+  total P&L  live $+7,168   backtest $+6,967
+
+  FIRST DIVERGENCES (by exit date):
+    GLD|2021-07-17             backtest only  pnl_live=nan pnl_bt=-37.49770034330931
+    GLD|2021-09-08             price differs  pnl_live=-21.74 pnl_bt=-30.51172712254153
+    GLD|2021-10-16             backtest only  pnl_live=nan pnl_bt=-44.54047396203035
+    GLD|2021-10-30             backtest only  pnl_live=nan pnl_bt=-18.52925126953559
+    GLD|2021-11-04             live only      pnl_live=-9.35 pnl_bt=nan
+    GLD|2021-11-20             backtest only  pnl_live=nan pnl_bt=31.14274297789389
+    GLD|2021-11-23             live only      pnl_live=-42.09 pnl_bt=nan
+    GLD|2022-01-04             price differs  pnl_live=-38.74 pnl_bt=-3.2514729262227386
+    GLD|2022-02-26             backtest only  pnl_live=nan pnl_bt=33.00020846915223
+    GLD|2022-03-15             backtest only  pnl_live=nan pnl_bt=-4.6024428055194395
+    GLD|2022-03-16             live only      pnl_live=68.07 pnl_bt=nan
+    GLD|2022-04-20             backtest only  pnl_live=nan pnl_bt=-46.659711064279456
+
+  Per-ticker trade counts (live / backtest):
+    BTC-USD    32 /   32
+    SOL-USD    24 /   24
+    NVDA       24 /   37
+    GLD        23 /   40
+
+  RESULT: LIVE CODE DOES NOT REPRODUCE THE BACKTEST
+
